@@ -36,7 +36,8 @@ public class iOSBaseTest {
         options.setDeviceName("iPhone 14 Pro");
 
         // set app name
-        options.setApp("//Users//sahiltiwari//Library//Developer//Xcode//DerivedData//UIKitCatalog-dflnpvkbmfpuzibbwbspvexudkbb//Build//Products//Debug-iphonesimulator//UIKitCatalog.app");
+        //options.setApp("//Users//sahiltiwari//Library//Developer//Xcode//DerivedData//UIKitCatalog-dflnpvkbmfpuzibbwbspvexudkbb//Build//Products//Debug-iphonesimulator//UIKitCatalog.app");
+        options.setApp("//Users//sahiltiwari//IdeaProjects//AppiumLearningIntelliJ//src//test//java//resources//TestApp 3.app");
         options.setPlatformName("16.4");
         //Appium - Webdriver Agent -> iOS Apps
         options.setWdaLaunchTimeout(Duration.ofSeconds(2000));

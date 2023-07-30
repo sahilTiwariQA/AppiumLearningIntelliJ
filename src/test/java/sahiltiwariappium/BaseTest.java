@@ -30,7 +30,8 @@ public class BaseTest {
         // Appium code -> Appium Server -> Mobile
         UiAutomator2Options options =new UiAutomator2Options();
         //Set device name
-        options.setDeviceName("Pixel6Pro");
+        //options.setDeviceName("Pixel6Pro"); //emulator
+        options.setDeviceName("Android Device"); //real device
 
         //set chrome driver path
         options.setChromedriverExecutable("//Users//sahiltiwari//chromedriver_mac_arm64//chromedriver");
