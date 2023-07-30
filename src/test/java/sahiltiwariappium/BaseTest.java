@@ -37,8 +37,8 @@ public class BaseTest {
         options.setChromedriverExecutable("//Users//sahiltiwari//chromedriver_mac_arm64//chromedriver");
 
         // set app name
-        //options.setApp("//Users//sahiltiwari//IdeaProjects//AppiumLearningIntelliJ//src//test//java//resources//ApiDemos-debug.apk");
-        options.setApp("//Users//sahiltiwari//IdeaProjects//AppiumLearningIntelliJ//src//test//java//resources//General-Store.apk");
+        options.setApp("//Users//sahiltiwari//IdeaProjects//AppiumLearningIntelliJ//src//test//java//resources//ApiDemos-debug.apk");
+        //options.setApp("//Users//sahiltiwari//IdeaProjects//AppiumLearningIntelliJ//src//test//java//resources//General-Store.apk");
         // Set driver port to listen to appium server
         driver=new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
     }
